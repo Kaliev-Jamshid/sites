@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* header */
+.header {
+}
+.header__menu {
+    width: 100%;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;    
+}
+.logo svg {
+    width: 100px;
+    height: 32.28px;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header__left-info {
+    width: 384px;
+}
+.header__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    color: #AE7C78;
+    margin-bottom: 24px;
+}
+.italic{
+    font-style: italic;
+}
+.header__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 64px;
+}
+.btn {
+    padding: 30px 70px 30px 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    background-color: #D89999;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid transparent;
+
+}
+.btn:hover{
+    background-color: white;
+    color: #D89999;
+    border: 1px solid #D89999;
+}
+.header-img1 {
+    height: 404px;
+    width: 386px;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.header-img2 {
+    width: 387px;
+    height: 420px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+/* Features section */
+
+.features {
+    margin-bottom: 80px;
+}
+.features__items {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 108px;
+}
+.features-item img{
+    height: 52px;
+    width: 82px;
+    margin-bottom: 56px;
+    margin-right: 20px;
+}
+.features-item {
+    display: flex;
+}
+.features-info{
+    width: 285px;
+}
+.features-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    margin-bottom: 8px;
+}
+.features-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+
+/* popular flowers */
+
+.popular {
+    height: 546px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.popular__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.popular__content {
+    display: flex;
+    height: 438px;
+    justify-content: center;
+}
+.popular__item-info {
+    height: 438px;
+    width: 387px;
+}
+.info_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 20px;
+}
+.info__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    margin-bottom: 24px;
+}
+.popular__item-sm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    color: #AE7C78;
+}
+.popular__item-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 64px;
+}
+.popular__btn {
+    background: #D89999;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 30px 105px 30px 105px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.popular__btn:hover{
+    background-color: white;
+    color: #D89999;
+    border: 1px solid #D89999;
+}
+.popular__item-img {
+    width: 387px;
+    height: 438px;
+}
+.arrows {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+/* Catalog section */
+
+
+
+.catalog {
+}
+.container {
+}
+.catalog__items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.catalog__items{
+    /* position: absolute; */
+}
+.catalog__item1{
+    width: 387px;
+    height: 442px;
+    background-color:  rgba(174, 124, 120, 0.6);
+    background-image: url("/img/catalog3.jpg");
+    border-radius: 10px;
+
+}
+.catalog__info{
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-align: center;   
+    border-radius: 10px;
+    top: -50%;
+    /* padding: 211px 23px 21px 183px; */
+}
+.catalog__item-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.catalog__item-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.imgbg{
+    background: rgba(174, 124, 120, 0.6);
+    border-radius: 10px;
+}
+
+/* skidka */
+
+.skidka {
+}
+.container {
+}
+.skidka__content {
+    /* margin-bottom: 80px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.skidka__left {
+    /* padding-left: 102px; */
+    /* padding-top: 42px; */
+    width: 50%;
+    background-color: #AE7C78;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.skidka__title {
+    position: absolute;
+    width: 488px;
+    height: 118px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.skidka__subtitle {
+    position: absolute;
+    width: 387px;
+    height: 145px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 182px;
+    color: #FFFFFF;
+}
+.skidka__right {
+    width: 50%;
+    height: 391px;
+}
